@@ -12,3 +12,36 @@ page](https://docs.github.com/en/get-started/writing-on-github/working-with-adva
 might help with the notation for mathematical expressions.
 
 $T(n) \in O(f(n)) \iff \exists c, n_0: T(n) \leq c \cdot f(n) \forall n \geq n_0$
+
+
+
+## Proof
+
+$T(n) \in O(\log_{5} n) \iff \exists c, n_0: T(n) \leq c \cdot \log_{5} n \forall n \geq n_0$
+
+let $\log_{5} n = \frac{\log_{2}n}{\log_{2}5}$
+
+$\frac{1}{\log_{2}5}$ is a constant
+
+=> $T(n) \in O(\log_{5} n) \iff \exists c, n_0: T(n) \leq \frac{c}{\log_{2}5} \cdot \log_{2} n \forall n \geq n_0$
+
+=> $T(n) \in O(\log_{5} n) \iff \exists c, n_0: T(n) \leq c \cdot \log_{2} n \forall n \geq n_0$
+
+When comparing these definitions, after using log properties to manipulate the statement, we can see that $O(\log_{5} n) = O(\log_{2} n)$
+
+
+
+
+
+
+
+
+### Sources
+
+https://www.efunda.com/math/exp_log/log_relation.cfm -> used for logarithmic properties
+
+
+
+
+
+
