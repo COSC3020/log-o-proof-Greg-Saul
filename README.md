@@ -40,6 +40,8 @@ When comparing these definitions, after using log properties to manipulate the s
 
 https://www.efunda.com/math/exp_log/log_relation.cfm -> used for logarithmic properties
 
+compared my work with https://github.com/COSC3020/log-o-proof-ross223 to see if our solutions were similar
+
 
 
 
